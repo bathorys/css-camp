@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'CSS camp',
   description: 'CSS camp',
   lang: 'ko-KR',
+  base: '/',
   srcDir: './src',
   markdown: {
     lineNumbers: true
@@ -31,7 +32,6 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
   },
   vite: {
-    base: '/',
     css: {
       devSourcemap: true
     }
