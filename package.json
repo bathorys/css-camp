@@ -1,0 +1,34 @@
+{
+  "name": "css-camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bathorys/css-camp.git"
+  },
+  "keywords": [
+    "CSS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bathorys/css-camp/issues"
+  },
+  "homepage": "https://github.com/bathorys/css-camp#readme",
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.7.2",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "prettier": "^3.2.4",
+    "sass": "^1.70.0",
+    "vitepress": "^1.0.0-rc.40"
+  }
+}
