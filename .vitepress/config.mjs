@@ -7,6 +7,7 @@ export default defineConfig({
   lang: 'ko-KR',
   base: '/',
   srcDir: './src',
+  cleanUrls: true,
   markdown: {
     lineNumbers: true
   },
@@ -32,6 +33,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
   },
   vite: {
+    base: '/',
     css: {
       devSourcemap: true
     }
