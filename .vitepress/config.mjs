@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'CSS camp',
-  description: 'CSS camp',
+  title: 'CSS Camp',
+  description: 'CSS Camp',
   lang: 'ko-KR',
   base: '/',
   srcDir: './src',
@@ -17,20 +17,20 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+      { text: 'Home', link: '/' }
+      // { text: 'Examples', link: '/markdown-examples' }
+    ]
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' }
+    //     ]
+    //   }
+    // ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
+    // socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
   },
   vite: {
     base: '/',
