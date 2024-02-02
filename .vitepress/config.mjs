@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'CSS Camp',
   description: 'CSS Camp',
-  lang: 'ko-KR',
+  lang: 'ko',
   base: '/',
   srcDir: './src',
   cleanUrls: true,
@@ -12,6 +12,7 @@ export default defineConfig({
     lineNumbers: true
   },
   themeConfig: {
+    repo: 'bathorys/css-camp',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
