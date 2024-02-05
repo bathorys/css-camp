@@ -1,7 +1,8 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
-import Comment from './components/Comment.vue'
 import DefaultTheme from 'vitepress/theme'
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
+import Comment from './components/Comment.vue'
 import './assets/scss/styles.scss'
 
 /** @type {import('vitepress').Theme} */
@@ -15,5 +16,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
     app.component('Comment', Comment)
+    enhanceAppWithTabs(app)
   }
 }
