@@ -42,5 +42,16 @@ export default defineConfig({
     css: {
       devSourcemap: true
     }
-  }
+  },
+  head: [
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-MK549LZP' }],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GTM-MK549LZP');`
+    ]
+  ]
 })
