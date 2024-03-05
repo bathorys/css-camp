@@ -44,14 +44,14 @@ export default defineConfig({
     }
   },
   head: [
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=GTM-MK549LZP' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-LMK2CMDXEV' }],
     [
       'script',
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'GTM-MK549LZP');`
+      gtag('config', 'G-LMK2CMDXEV');`
     ]
   ]
 })
